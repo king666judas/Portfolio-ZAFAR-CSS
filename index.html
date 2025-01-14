@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="left">
+            <a href="/">Fahd ZAFAR</a>
+        </div>
+
+        <div class="right">
+            <a href="#" class="active">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-pen"></i>
+                <span>Projects</span>
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Technical Consultant</h2>
+                <h3>Providing information technology leadership to companies for efficient operation. 
+                </h3>
+
+                <div class="links">
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/hero-headshot.webp" alt="hero headshot">
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="skills-section">
+            <div class="text">
+                <h2>Skills</h2>
+                <h3>
+                With a background in Architecture I have developed vision, perception and clarity 
+                in technological and social aspects. Using my abilities to harness the power of 
+                Information technology has been my drive in recent years.
+                </h3>
+
+                <div class="cells">
+                    <div class="cell">
+                        <img src="images/revit-logo.webp" alt="html logo">
+                        <span>REVIT</span>
+                    </div>
+                
+                    <div class="cell">
+                        <img src="images/ps-logo.webp" alt="css logo">
+                        <span>Photoshop</span>
+                    </div>
+                
+                    <div class="cell">
+                        <img src="images/mspr-logo.webp" alt="js logo">
+                        <span>MS Project</span>
+                    </div>
+                
+                    <div class="cell">
+                        <img src="images/py.webp" alt="react logo">
+                        <span>Python</span>
+                    </div>
+                
+                    <div class="cell">
+                        <img src="images/tabl.webp" alt="react logo">
+                        <span>Tableau</span>
+                    </div>
+                </div>
+            </div>
+        </section>           
+
+        <!-- Projects section -->
+        
+        <section class="projects-section">
+            <div class="text">
+                <h2>Projects</h2>
+                <div class="projects-container">
+                    <div class="project">
+
+                        <img src="images/DMRT.jpg" alt="DMRT">
+                        <div class="project-info">
+                            <h3>Dhaka MRT Line 6</h3>
+                            <p>Bangladesh's first rapid transit line and has been in service 
+                                since 2022. Its 16 stations between Uttara North and Motijheel 
+                                handles 60,000 passenger every hour.</p>
+                        </div>   
+                    </div>
+
+                    <div class="project">
+                        <img src="images/Payra1320.jpg" alt="Payra1320">
+                        <div class="project-info">
+                            <h3>Payra 1320MW Thermal Power Plant </h3>
+                            <p>The Power Plant is a coal-fired power station located in Kalapara 
+                                Upazila, Patuakhali District, Bangladesh. Equipped with the Ultra 
+                                Supercritical Technology, the plant can comply with targeted power 
+                                generation while burning less fuel</p>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <img src="images/ndc.webp" alt="nescodata">
+                        <div class="project-info">
+                            <h3>NESCO Data Center</h3>
+                            <p>Established to digitalise all customer services. NESCO data center 
+                                is running prepaid and postpaid bill processing. It also runs smart
+                                metering/AMI, GIS, SCADA, ERP, finance and budgeting, HR, store 
+                                and other softwares.</p>
+                        </div>
+                    </div>
+
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    For specialised comprehensive project management and consultation services, 
+                    particularly in renewable energy. With over 9 years of experience in architectural 
+                    design and 5 years dedicated to managing renewable energy projects, we bring expertise 
+                    and innovation to every venture.
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 My Portfolio. All Rights Reserved</p>
+        </footer>
+
+        
+    </main>
+</body>
+
+</html>
